@@ -1,0 +1,44 @@
+form {
+  backdrop-filter: blur(10px);
+  width: 33rem;
+  height: 25rem;
+}
+
+.form-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.login-btn {
+  background-image: linear-gradient(#020333, #2ebf91);
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 4.2rem;
+}
+
+.login-btn:hover {
+  background-image: none;
+  background-color: transparent;
+  border: 2px solid #2ebf91;
+  color: #2ebf91;
+}
+
+.form-control {
+  border: 2px solid #2ebf91;
+}
+
+.form-control:focus {
+  border-color: #2ebf91;
+  box-shadow: 0 0 0 0.2 #2ebf91;
+  outline: 0;
+}
+
+.form-control::placeholder {
+  color: #2ebf91;
+}
