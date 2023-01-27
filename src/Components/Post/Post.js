@@ -35,7 +35,8 @@ const Post = () => {
     if (searchUser === "") {
       return user;
     } else {
-      return user.title.toLowerCase().includes(searchUser);
+       let letter = user.title.includes(searchUser.toLowerCase());
+       return letter
     }
 
   });
